@@ -3802,9 +3802,9 @@
                 // =========================================================================
                 // ACTO 2: SHOWROOM GIGANTE DE PRODUCTOS DE BELLEZA (LABIAL + SÉRUM HIALURÓNICO + PERFUME)
                 // =========================================================================
-                drawLuxuryLipstickShowcase(ctx, 185, h / 2 + 22, 0.96, timeSec * 1.15, '#f43f5e', '💄 COLOR RICHE ROUGE #01');
-                drawElixirSerumBottleShowcase(ctx, w / 2, h / 2 + 20, 1.04, timeSec * 1.15, '💧 SÉRUM ÁCIDO HIALURÓNICO & ORO 24K');
-                drawHautePerfumeFlaconShowcase(ctx, w - 185, h / 2 + 22, 0.96, timeSec * 1.15, '🌸 ELIXIR DE PARFUM PARIS');
+                drawLuxuryLipstickShowcase(ctx, 185, h / 2 + 22, 0.96, timeSec * 1.15, '#f43f5e', '💄MODEL BOLIVIA #01 EN MODA');
+                drawElixirSerumBottleShowcase(ctx, w / 2, h / 2 + 20, 1.04, timeSec * 1.15, '💧 SÉRUM ÁCIDO HIALURÓNICO & NIAMAMICINA');
+                drawHautePerfumeFlaconShowcase(ctx, w - 185, h / 2 + 22, 0.96, timeSec * 1.15, '🌸 MUNDO MODEL BOLIVIA 2026');
 
                 // Etiquetas flotantes de beneficios cosméticos
                 ctx.save();
@@ -3825,9 +3825,9 @@
                 // ACTO 3: CAMPAÑA EDITORIAL DE BELLEZA & MAQUILLAJE (3 CARTELES L'ORÉAL STYLE)
                 // =========================================================================
                 const cards = [
-                    { x: 175, title: '💄 ROUGE PARIS SATIN', sub: 'LABIOS TERCIOPELO 24H', color: '#f43f5e', swatch: ['#e11d48', '#be123c', '#f472b6'] },
-                    { x: w / 2, title: '💧 SÉRUM ELIXIR 24K', sub: 'ÁCIDO HIALURÓNICO PURO', color: '#facc15', swatch: ['#fef08a', '#f59e0b', '#38bdf8'] },
-                    { x: w - 175, title: '✨ LASH PARADISE GOLD', sub: 'MIRADA DE IMPACTO 8K', color: '#22d3ee', swatch: ['#22d3ee', '#a855f7', '#facc15'] }
+                    { x: 175, title: '💄 SANTA CRUZ 2026', sub: 'LABIOS INTENSOS', color: '#f43f5e', swatch: ['#e11d48', '#be123c', '#f472b6'] },
+                    { x: w / 2, title: '💧 SÉRUM ACLARADOR', sub: 'NIAMAMICINA ', color: '#facc15', swatch: ['#fef08a', '#f59e0b', '#38bdf8'] },
+                    { x: w - 175, title: '✨ MODA 2O26', sub: 'MODEL BOLIVIA', color: '#22d3ee', swatch: ['#22d3ee', '#a855f7', '#facc15'] }
                 ];
 
                 cards.forEach((c, idx) => {
@@ -3872,8 +3872,8 @@
                 // =========================================================================
                 // ACTO 4: GRAN FINAL LE DÉFILÉ PARÍS ("PORQUE TÚ LO VALES" + PRODUCTOS + 5 MODELOS)
                 // =========================================================================
-                drawLuxuryLipstickShowcase(ctx, 118, h / 2 + 24, 0.72, timeSec, '#e11d48', 'ROUGE 24K');
-                drawElixirSerumBottleShowcase(ctx, w - 118, h / 2 + 24, 0.72, timeSec, 'SÉRUM ORO');
+                drawLuxuryLipstickShowcase(ctx, 118, h / 2 + 24, 0.72, timeSec, '#e11d48', 'MODEL BOLIVIA');
+                drawElixirSerumBottleShowcase(ctx, w - 118, h / 2 + 24, 0.72, timeSec, 'SÉRUM ACLARADOR');
 
                 const lineupX = [w / 2 - 220, w / 2 - 110, w / 2, w / 2 + 110, w / 2 + 220];
                 const lineupTypes = ['barbie', 'ken', 'queen', 'barbie', 'ken'];
@@ -3939,11 +3939,11 @@
                 ctx.fillText('💄 COLECCIÓN LE DÉFILÉ 2026', w - 199, 206);
 
                 const beautyProducts = [
-                    { name: '💄 LABIAL ROUGE PARIS 24K', status: 'TOP #1', col: '#f43f5e' },
-                    { name: '💧 SÉRUM HIALURÓNICO ORO', status: 'ELIXIR', col: '#facc15' },
-                    { name: '🌸 EAU DE PARFUM COUTURE', status: 'NUEVO', col: '#f472b6' },
-                    { name: '✨ MÁSCARA LASH PARADISE', status: 'VOLUMEN', col: '#38bdf8' },
-                    { name: '💍 JOYAS & PULSERAS 24K', status: 'VIP 8K', col: '#34d399' }
+                    { name: '💄 LABIAL INTENSO', status: 'TOP #1', col: '#f43f5e' },
+                    { name: '💧 SÉRUM NIAMAMICINA', status: 'BIOACUA', col: '#facc15' },
+                    { name: '🌸 EAU DE PARFUM COUTURE SANTA CRUZ 2026', status: 'NUEVO', col: '#f472b6' },
+                    { name: '✨ MÁSCARA LASH PARADISE SANTA CRUZ 2026', status: 'VOLUMEN', col: '#38bdf8' },
+                    { name: '💍 JOYAS & PULSERAS SANTA CRUZ 2O26', status: 'CAMBA', col: '#34d399' }
                 ];
                 beautyProducts.forEach((bp, idx) => {
                     const yRow = 234 + idx * 28;
